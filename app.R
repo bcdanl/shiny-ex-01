@@ -67,7 +67,7 @@ ui <- page_sidebar(
                     selectInput("propensity", "Select propensities to buy", choices = propensities, selected = "", multiple  = TRUE),
                     selectInput("contract", "Select contract types", choices = contracts, selected = "", multiple  = TRUE),
                     "This app compares the effectiveness of two types of free trials, A (30-days) and B (100-days), at converting users into customers.",
-                    tags$img(src = "logo.png", width = "100%", height = "auto")),
+                    tags$img(src = "geneseo-logo-square.png", width = "100%", height = "auto")),
   
   # Layout non-sidebar elements
   layout_columns(card(card_header("Conversions over time"),
